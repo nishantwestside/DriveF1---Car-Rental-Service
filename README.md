@@ -29,7 +29,7 @@ Ready to experience the thrill of Formula 1 racing? Contact us today to book you
 
 ## Contact Us
 
-For inquiries, bookings, and more information, please visit our website at [drivef1.000webhostapp.com](drivef1.000webhostapp.com)
+For inquiries, bookings, and more information, please visit our website at drivef1.000webhostapp.com
 
 
 
