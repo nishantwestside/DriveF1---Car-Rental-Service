@@ -4,7 +4,7 @@ Welcome to F1 Rentals, where we bring the excitement of Formula 1 racing to life
 
 ## About Us
 
-At F1 Rentals, we specialize in providing unparalleled experiences for car enthusiasts who want to experience the thrill of driving a real Formula 1 car. Our fleet of high-performance vehicles includes top-of-the-line Formula 1 cars from renowned manufacturers, meticulously maintained to ensure optimal performance on the track. 
+At DriveF1 , we specialize in providing unparalleled experiences for car enthusiasts who want to experience the thrill of driving a real Formula 1 car. Our fleet of high-performance vehicles includes top-of-the-line Formula 1 cars from renowned manufacturers, meticulously maintained to ensure optimal performance on the track. 
 
 ## Features
 
