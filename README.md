@@ -1,36 +1,96 @@
-# DriveF1 - Car Rental Service
+# 🏎️ DriveF1 - Car Rental Service
 
-Welcome to F1 Rentals, where we bring the excitement of Formula 1 racing to life through our premium car rental service. 
+Welcome to **DriveF1**, a premium Formula 1-themed car rental system. This platform allows users to book from a curated collection of high-performance F1 cars and enables admins to manage bookings, feedback, and user data efficiently.
 
-## About Us
+![Home](public/home.png)
 
-At DriveF1 , we specialize in providing unparalleled experiences for car enthusiasts who want to experience the thrill of driving a real Formula 1 car. Our fleet of high-performance vehicles includes top-of-the-line Formula 1 cars from renowned manufacturers, meticulously maintained to ensure optimal performance on the track. 
+---
 
-## Features
+## 🚀 Features
 
-- Experience the power and speed of a Formula 1 car in a safe and controlled environment.
-- Choose from a range of iconic Formula 1 cars from different eras and manufacturers.
-- Professional driving instructors available for guidance and coaching.
-- Flexible rental options to suit your schedule and preferences.
-- Impeccable customer service to ensure a seamless and memorable experience.
+### 👤 User Side:
+- User Registration & Login
+- Car Booking Interface
+- View Booking Status
+- Submit Feedback
+- Explore F1 Car Collections
+- About & Contact Pages
 
-## How It Works
+### 🛠️ Admin Side:
+- Admin Login
+- View and Manage User Bookings
+- Collect and View User Feedback
+- Manage Car Collections
+- View Registered Users
 
-1. Browse our fleet and select your desired Formula 1 car.
-2. Choose your rental duration, from hourly to full-day options.
-3. Book your rental online or contact our customer service team for assistance.
-4. Arrive at our state-of-the-art facility, where you'll receive a safety briefing and get ready to hit the track.
-5. Experience the adrenaline-pumping rush of driving a real Formula 1 car on a world-class racetrack, with the guidance of our experienced driving instructors.
-6. Return the car and leave with memories of an unforgettable Formula 1 driving experience.
+---
 
-## Get Started
+## 📂 Pages Preview
 
-Ready to experience the thrill of Formula 1 racing? Contact us today to book your rental and embark on an unforgettable adventure with F1 Rentals.
+| Page                  | Preview                              |
+|-----------------------|--------------------------------------|
+| Home                  | ![Home](public/home.png)             |
+| About Us              | ![About](public/about.png)           |
+| Contact Us            | ![Contact](public/contact.png)       |
+| User Signup           | ![Signup](public/userSignup.png)     |
+| User Booking          | ![Booking](public/userBookingCar.png)|
+| Booking Status        | ![Status](public/userBookingStatus.png)|
+| Submit Feedback       | ![Feedback](public/submitFeedback.png)|
+| User Home             | ![UserHome](public/userHome.png)     |
+| Admin Login           | ![AdminLogin](public/adminLogin.png) |
+| Admin Booking         | ![AdminBooking](public/adminBooking.png)|
+| Admin Collection      | ![AdminCollection](public/adminCollection.png)|
+| Admin Feedback        | ![AdminFeedback](public/adminFeedback.png)|
+| Admin Users           | ![AdminUser](public/adminUser.png)   |
 
-## Contact Us
+---
 
-For inquiries, bookings, and more information, please visit our website at drivef1.000webhostapp.com
+## 🧑‍💻 How to Run the Project
+
+### 1. Install Local Server Environment
+
+Install [XAMPP](https://www.apachefriends.org/index.html) or any similar PHP server stack (WAMP, MAMP, LAMP).
+
+### 2. Place the Project in the Server Directory
+
+Move or copy the folder `DriveF1---Car-Rental-Service-main` into your XAMPP `htdocs` directory:
+```bash
+C:\xampp\htdocs\DriveF1---Car-Rental-Service-main
+```
+
+### 3. Start Apache and MySQL
+
+Open XAMPP Control Panel and start:
+- Apache
+- MySQL
+
+### 4. Set Up the Database
+
+- Open your browser and go to:
+  ```bash
+  http://localhost/phpmyadmin
+  ```
+- Create a new database named "carrental"
+- Click on Import tab and upload the "carrental.sql" file included in the project
+
+### 5. Configure Database Connection
+
+Open the file (usually connection.php) and ensure the following:
+```php
+$host = 'localhost';
+$user = 'root';
+$password = '';
+$db = 'carrental';
+```
+
+### 6. Launch the Project
+
+Navigate to:
+```bash
+http://localhost/DriveF1---Car-Rental-Service-main/
+```
+If "index.php" is present, it will load automatically.
 
 
-
-Thank you for choosing F1 Rentals for your Formula 1 car rental needs. We look forward to delivering an unforgettable experience on the racetrack!
+## 🛡️ License
+This project is for educational/demo purposes only.
