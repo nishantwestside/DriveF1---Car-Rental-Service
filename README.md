@@ -53,9 +53,9 @@ Install [XAMPP](https://www.apachefriends.org/index.html) or any similar PHP ser
 
 ### 2. Place the Project in the Server Directory
 
-Move or copy the folder `DriveF1---Car-Rental-Service-main` into your XAMPP `htdocs` directory:
+Move or copy the folder `DriveF1-Car-Rental-Service-main` into your XAMPP `htdocs` directory:
 ```bash
-C:\xampp\htdocs\DriveF1---Car-Rental-Service-main
+C:\xampp\htdocs\DriveF1-Car-Rental-Service-main
 ```
 
 ### 3. Start Apache and MySQL
